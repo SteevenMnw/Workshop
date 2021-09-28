@@ -4,7 +4,7 @@ import {
   NavLink,
   NavMenu,
 } from './navbar';
-//git commit -m "ajout de l'envirronnement de base avec toutes les pages"
+
 const Navbar = () => {
   return (
     <>
