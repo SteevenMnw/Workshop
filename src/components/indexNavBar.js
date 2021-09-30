@@ -6,17 +6,24 @@ import {
 } from './navbar';
 
 const Navbar = () => {
+
+  var styles = {
+    text:{
+      fontSize: 20
+    },
+  }
+
   return (
     <>
       <Nav>
         <NavMenu>
-          <NavLink exact to='/' activeStyle>
+          <NavLink exact to='/' activeStyle style={styles.text}>
             Accueil
           </NavLink>
-          <NavLink to='/phishing' activeStyle>
+          <NavLink to='/phishing' activeStyle style={styles.text}>
             Phishing
           </NavLink>
-          <NavLink to='/scan' activeStyle>
+          <NavLink to='/scan' activeStyle style={styles.text}>
             Scan Link
           </NavLink>
         </NavMenu>

@@ -1,10 +1,16 @@
 import React from 'react';
 import Navbar from '../components/indexNavBar';
 
+var styles = {
+    taff:{
+        fontFamily: 'Calibri',
+    },
+};
+
 class Scan extends React.Component {
     render(){
         return (
-            <div className="Phishing">
+            <div style={styles.taff}>
                 <div className="navbar">
                     <Navbar></Navbar>
                 </div>
