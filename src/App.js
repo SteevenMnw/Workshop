@@ -1,16 +1,16 @@
 import { BrowserRouter as Router, Route } from "react-router-dom"
-import phishing from "./pages/phishing";
+import Phishing from "./pages/Phishing";
 import Home from "./pages/Home";
 import Scan from "./pages/Scan";
-import Fuked from "./pages/Fuked";
+import Phished from "./pages/Phished";
 
 function App() {
   return (
     <Router>
         <Route path="/" exact component={Home} />
-        <Route path="/phishing" component={phishing} />
+        <Route path="/phishing" component={Phishing} />
         <Route path="/scan" component={Scan} />
-        <Route path="/fuked" component={Fuked} />
+        <Route path="/phished" component={Phished} />
     </Router>
   );
 }
